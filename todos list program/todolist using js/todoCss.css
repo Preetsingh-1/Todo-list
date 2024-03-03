@@ -1,0 +1,112 @@
+.bg{
+    background-color: rgba(196, 245, 241, 0.975);
+    height: 100%;
+    padding:30px;
+}
+.bgcontainer{
+    margin:30px;
+    margin-left: 80px;
+    margin-right: 80px;
+} 
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h1{
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.subpart{
+    font-size: 35px;
+    font-weight: 500;
+}
+.input{
+  background-color: rgb(248, 244, 238);
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(63, 172, 163);
+  border-radius: 10px;
+  margin-top: 1px;
+  height: 40px;
+}
+
+.btn{
+    color: white;
+    font-size:medium;
+    background-color: rgb(7, 186, 171);
+    border-color: rgb(35, 143, 134);
+    height: 35px;
+    width:75px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.ul_style{
+    margin-left: -35px;
+
+}
+.itmcontainer{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex:row;
+}
+
+.checkbox{
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+  border-color: rgb(65, 173, 164);
+}
+
+.labelsdiv{
+    background-color: rgb(130, 219, 212);
+    width: 100%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(35, 143, 134);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputlabel{
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+.deleteicon{
+  text-align: right;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.icon{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.wordcross{
+    text-decoration: line-through;
+   
+}

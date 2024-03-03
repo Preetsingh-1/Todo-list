@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script> 
+    <title>Todos list</title>
+    <link rel="stylesheet " href="todoCss.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="bgcontainer">
+            <h1 class="heading">Todos</h1>
+            <h1 class="h1"> Create <span class="subpart"> Tasks </span></h1>
+                   
+           <input type="text" placeholder=" Enter your task." class="input" id="inputId">
+           <button class="btn" onclick="additembtn()">Add</button>
+                   
+            <h1 class="h1">My <span class="subpart"> Tasks</span></h1>
+            <ul class="ul_style" id="ul_Id"></ul>
+            <button class="btn" onclick="saveitembtn()">Save</button>
+
+        </div>
+    </div>
+
+    <script src="todoJs.js"></script>
+</body>
+</html>
